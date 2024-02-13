@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- this is the main container that will contain the stopwatch. -->
+    <div id="stopwatchContainer">
+      <!-- setting inital time on the stopwatch -->
+      <span id="stopwatchTime">00:00:00</span>
+    </div>
+
+    <!-- this div will contain the buttons - reset, play, pause -->
+    <div id="stopwatchButtons">
+      <button id="reset" class="buttons">
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+      </button>
+      <button id="play" class="buttons">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button id="pause" class="buttons">
+        <i class="fa-solid fa-pause"></i>
+      </button>
+    </div>
+
+    <!-- this div is used to create a dotted cirlce inside the main container. Only for designing purpose. -->
+    <div id="dottedCircle"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
