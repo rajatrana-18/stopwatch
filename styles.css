@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 68, 68);
+  }
+
+#dottedCircle{
+  position: absolute;
+  border-radius: 50%;
+  border: 2px dotted red;
+  height: 270px;
+  width: 270px;
+}
+
+
+
+#stopwatchContainer{
+  position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+
+#stopwatchTime{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  font-size: 50px;
+  color: red;
+  font-family: arial;
+}
+
+#stopwatchButtons{
+  margin-top: 150%;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+#stopwatchButtons button{
+  margin: 5%;
+  /* transform: scale(1.5); */
+  height: 100%;
+  width: 17%;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#stopwatchButtons button:hover{
+  border: 1px solid rgb(224, 82, 82);
+  transform: scale(1.05);
+}
+
+#play, #pause{
+  background-color: red;
+  color: white;
+}
+
+#reset{
+  color: white;
+  background-color: grey;
+}
